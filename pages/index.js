@@ -20,7 +20,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoFacebook } from 'react-icons/io5'
 
-const Home = props => {
+const Home = () => {
   return (
     <>
       <Layout>
@@ -121,11 +121,12 @@ const Home = props => {
             <Heading as="h3" variant="section-title">
               [HỘI CHỢ TẾT 2022]
             </Heading>
-            <Paragraph>
+            <p>
               Năm mới đến, cùng với hội chợ Tết được tổ chức tại St Albans, nhà
               hàng Phở Sắc, ngoài món phở truyền thống, có bán thêm một số món
               ẩm thực đường phố đặc sắc phục vụ mọi người đến với hội chợ:
-            </Paragraph>
+            </p>
+            <br />
             <ul style={{ listStyle: 'none' }}>
               <li>- Hột vịt lộn muối tiêu</li>
               <li>- Hột vịt lộ rang me</li>
@@ -177,11 +178,11 @@ const Home = props => {
             <Heading as="h3" variant="section-title">
               [LUNAR NEW YEAR FESTIVAL 2022]
             </Heading>
-            <Paragraph>
+            <p>
               Together with New Year Festival at St Albans, Phosac is going to
               offer some delicious Vietnamese street food, namely:
-            </Paragraph>
-
+            </p>
+            <br />
             <ul style={{ listStyle: 'none' }}>
               <li>- Salt and pepper balut</li>
               <li>- Tamarind sauce balut</li>
